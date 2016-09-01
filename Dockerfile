@@ -41,4 +41,6 @@ RUN service apache2 restart
 VOLUME /data
 EXPOSE 80
 
+CMD apache2ctl -D FOREGROUND
+
 
