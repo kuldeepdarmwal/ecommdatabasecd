@@ -35,7 +35,7 @@ RUN service apache2 restart
 #ADD . /var/www/html/
 
 #RUN apt-get install -y openssh-server
-RUN service apache2 start
+#RUN service apache2 start
 
 
 VOLUME /data
