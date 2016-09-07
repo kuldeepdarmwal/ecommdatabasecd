@@ -1,0 +1,19 @@
+{
+    "volumes": [],
+    "family": "frequence-task-definition",
+    "containerDefinitions": [
+        {
+            "memory": 200,
+            "portMappings": [
+                {
+                    "hostPort": 0,
+                    "containerPort": 5000,
+                    "protocol": "tcp"
+                }
+            ],
+            "name": "frequence-service-dev",
+            "image": "training/webapp:latest",
+            "cpu": 1
+        }
+    ]
+}
