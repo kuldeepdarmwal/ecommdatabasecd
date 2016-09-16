@@ -12,7 +12,7 @@
                 }
             ],
             "name": "frequence-service-dev",
-            "image": "training/webapp:latest",
+            "image": "manoj1992/ecomm-test:v_6",
             "cpu": 1
         }
     ]
